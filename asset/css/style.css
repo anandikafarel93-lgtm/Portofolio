@@ -1,0 +1,67 @@
+navbar-nav {
+display: flex;
+}   
+.hero-image {
+width: 100%;
+max-width: 100%;
+height: 260px;
+object-fit: cover;
+object-position: bottom center;      
+display: block;
+}
+
+@media (min-width: 992px) {
+.hero-image {
+max-width: 680px;     
+height: 300px;          
+}
+}
+.social-btn {
+width: 38px;
+height: 38px;
+margin-top: 20px;
+border: 1px solid #e2e8f0;
+border-radius: 8px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+color: #475569;
+background-color: #ffffff;
+}
+
+.tag-category {
+font-size: 0.72rem;
+font-weight: 600;
+padding: 0.25rem 0.65rem;
+border-radius: 6px;
+background-color: #f1f5f9;
+color: #475569;
+}
+
+.tech-name {
+font-size: 0.75rem;
+font-weight: 600;
+color: #475569;
+margin: 0;
+}
+
+.project-card {
+border: 1px solid #e2e8f0;
+border-radius: 12px;
+overflow: hidden;
+background-color: #ffffff;
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.project-card:hover {
+transform: translateY(-4px);
+box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+}
+
+.tech-box {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  background-color: #ffffff;
+  transition: all 0.2s ease;
+}

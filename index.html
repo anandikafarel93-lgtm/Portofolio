@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Pribadi</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-light navbar-expand-lg sticky-top py-3 border-bottom">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"></button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav align-items-center gap-3">
+            <li>
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li>
+              <a href="#contact" class="btn btn-primary px-3 rounded-3 d-flex align-items-center gap-2">
+                <span>Hubungi Saya</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="home" class="py-4">
+      <div class="container py-3">
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-lg-1">
+            <span class="text-primary">Fullstack Developer</span>
+            <h1 class="fw-bold text-dark">
+              Anandika Farrel Alfarizi
+            </h1>
+            <p class="lead text-secondary mb-4">
+              Disini saya akan membuat project portofolio dan ini menjadi
+              latihan pertama saya untuk terus berkembang
+            </p>
+            <a href="#projects" class="btn btn-primary px-4 py-2 rounded-3">
+              <span>View My Projects</span>
+            </a>
+            <a href="#contact" class="btn btn-outline-secondary px-4 py-2 rounded-3">
+                <i class="bi bi-envelope"></i>
+                <span span>Contact Me</span>
+            </a>
+            <div class="d-flex gap-2">
+            <a href="#" id="btn-github" class="social-btn"><i class="bi bi-github"></i></a>
+            <a href="#" id="btn-facebook" class="social-btn"><i class="bi bi-facebook"></i></a>
+            <a href="#" id="btn-instagram" class="social-btn"><i class="bi bi-instagram"></i></a>
+          </div>
+          </div>
+
+          <div class="col-lg-6 order-2 order-lg-2 text-center text-lg-end">
+            <div class="position-relative d-inline-block">
+              <img src="asset/picture/wa_image.jpeg" class="img-fluid rounded-4 shadow-sm w-100" style="object-fit: cover; max-height: 380px;"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="projects" class="py-5 bg-white">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-end mb-4">
+                <div>
+                    <div class="section-eyebrow text-primary">Featured Project</div>
+                    <h2 class="h3 fw-bold">Project Yang Dibuat</h2>
+                </div>
+                <a href="#" class="text-primary text-decoration-none d-flex align-items-center gap-1">
+                    <span>View All Project</span>
+                </a>
+            </div>
+            <div class="row align-items-center" id="project_id">
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="container py-4">
+        <p class="text-primary fw-bold" >
+            Skills
+        </p>
+        <h2 class="fw-bold mb-4">
+            My Technologies
+        </h2>
+        <div class="d-flex gap-3" id="TechProject">
+            
+            <!--<div class="p-3 border text-center d-flex flex-column align-items-center justify-content-center" >
+            <i class="fa-brands fa-bootstrap"></i>
+            <div class="tech-name">Bootstrap</div>
+            </div> -->
+        </div>
+        <div class="stack-box mt-4 rounded-4">
+          <h5 class="fw-bold mb-3 text-dark">Alasan saya memakai tech ini adalah</h5>
+          <ul class="list-unstyled d-flex flex-column gap-3 mb-0">
+              <li class="d-flex align-items-center gap-2 text-secondary">
+                  <i class="bi bi-check-circle fs-5 icon-purple"></i>
+                  <span>Mudah dipelajari untuk pemula</span>
+              </li>
+              <li class="d-flex align-items-center gap-2 text-secondary">
+                  <i class="bi bi-check-circle fs-5 icon-purple"></i>
+                  <span>Ringan, cepat, dan modern</span>
+              </li>
+              <li class="d-flex align-items-center gap-2 text-secondary">
+                  <i class="bi bi-check-circle fs-5 icon-purple"></i>
+                  <span>Gratis</span>
+              </li>
+          </ul>
+        </div>
+    </section>
+    <section id="contact" class="py-5 bg-white">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-5">
+                    <div class="section-eyebrow text-primary">Contact</div>
+                    <h2 class="h3 fw-bold mb-3 ">Yuk Berbincang & Berdiskusi</h2>
+                    <p class="text-secondary small mb-4"> 
+                        Punya rencana proyek atau sekadar ingin berbincang?<br> Silahkan mengisi form di sini
+                    </p>
+                    
+                    <div class="d-flex flex-column gap-3">
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="bi bi-envelope text-primary fs-5"></i>
+                            <span class="text-dark small fw-medium">anandikafarel93@gmail.com</span>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="bi bi-geo-alt text-primary fs-5"></i>
+                            <span class="text-dark small fw-medium">Jawa Barat, Bekasi, Indonesia</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                <form id="contactForm">
+                    <div class="row g-3 mb-3">
+                        <div class="col-sm-6">
+                            <label for="name" class="small mb-1">Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="email" class="small mb-1">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="wa" class="small mb-1">No WhatsApp</label>
+                        <input type="text" id="wa" class="form-control" placeholder="Your phone" required>
+                    </div>
+                    <div class="mb-3">
+                         <label for="message" class="small mb-1">Pesan</label>
+                         <textarea class="form-control" id="message" rows="3" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="text-end">
+                        <button type="submit" class="btn btn-primary d-inline-flex align-items-center gap-2">
+                            <span>Send Message</span>
+                        </button>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="asset/javascript/script.js"></script>
+  </body>
+</html>
